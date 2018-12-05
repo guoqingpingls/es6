@@ -28,5 +28,6 @@ const args = yargs
   default: 8088,
   describe: 'server port'
 })
-// 输出为字符串
+// 会返回对象，里面有之前配置的参数
 .argv
+export default args;
