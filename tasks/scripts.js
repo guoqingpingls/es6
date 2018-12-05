@@ -21,10 +21,10 @@ gulp.task('scripts', () => {
   .pipe(named())
   .pipe(gulpWebpack({
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.js$/,
-          loader: 'babel'
+          loader: 'babel-loader'
         }
       ]
     }
