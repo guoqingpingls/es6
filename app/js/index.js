@@ -1,1 +1,1 @@
-import './class/letConst.js'
+import './class/test.js'
