@@ -1,1 +1,1 @@
-import './class/test.js'
+import './class/regex.js'
