@@ -21,7 +21,7 @@
 {
   let a, b, c;
   [a, b, c=3] = [1, 2]
-  console.log(1, 2, 3)
+  console.log(a, b, c)
 }
 // 使用场景
 // 1,变量交换
