@@ -1,1 +1,2 @@
-import './class/regex.js'
+import 'babel-polyfill'
+import './class/string.js'
